@@ -11,5 +11,5 @@ spring:
             default-label: master
             uri: https://github.com/LEEHYUNDONG/cloud-config-demo
             search-paths: cloud-config-file/**
-            basedir: ./repo
+#            basedir: ./repo
 

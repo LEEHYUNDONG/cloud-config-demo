@@ -2,3 +2,4 @@ com:
   easttwave:
     profile : demo
     region : kr
+    description: this is demo profile

@@ -23,11 +23,12 @@ import org.springframework.context.annotation.Configuration;
 
 @Getter
 @Setter
-@ConfigurationProperties("com.easttwave")
 @Configuration
+@ConfigurationProperties("com.easttwave")
 @RefreshScope
 @ToString
 public class MyConfig {
     private String profile;
     private String region;
+    private String description;
 }
