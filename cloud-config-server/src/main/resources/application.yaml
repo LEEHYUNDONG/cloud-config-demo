@@ -5,8 +5,11 @@ spring:
     application:
         name: config-server
     cloud:
-        config:
-          server:
-            git: https://github:com/LEEHYUNDONG/msa-cloud-config
+      config:
+        server:
+          git:
+            default-label: master
+            uri: https://github.com/LEEHYUNDONG/cloud-config-demo
             search-paths: cloud-config-file/**
-            default: main
+            basedir: ./repo
+

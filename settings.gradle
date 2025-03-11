@@ -1,0 +1,10 @@
+rootProject.name = 'config-client-demo'
+
+include 'cloud-config-client'
+project(':cloud-config-client').projectDir = new File('config-client')
+
+include 'cloud-config-server'
+project(':cloud-config-server').projectDir = new File('config-server')
+
+include 'cloud-config-file'
+project(':cloud-config-file').projectDir = new File('config-file')
